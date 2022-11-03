@@ -1,10 +1,10 @@
-import 'ant-design-vue/dist/antd.css';
-import * as Antd from 'ant-design-vue';
-
-import { createApp } from 'vue';
-
+import Vue from 'vue';
 import App from './App.vue';
+import * as Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
 
-const app = createApp(App);
-
-app.use(Antd).mount('#app');
+Vue.use(Antd);
+Vue.config.devtools = true;
+new Vue({
+  render: (h) => h(App),
+}).$mount('#app');

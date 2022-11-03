@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "ant-design-vue": "^3.2.13",
-    "vue": "^3.2.26"
+    "vue": "2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
